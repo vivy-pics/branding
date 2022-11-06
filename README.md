@@ -8,8 +8,8 @@
 This repository contains all of Vivy's branding assets.
 
 ## Logos
-These logos are the primary branding for Vivy. They change color based on theme (dark themes get white, light themes get
-black) but can also be in an accented style. No other form of this icon and wordmark is valid.
+These logos are the primary branding for Vivy. They change color based on text color via currentColor but can also be in
+an accented style. No other form of this icon and wordmark is valid.
 
 ### Icon
 
