@@ -52,4 +52,5 @@ appropriate to have a pure white or black logo.
 
 Vivy has a very minimalistic color palette, based on [Catppuccin](https://github.com/catppuccin/catppuccin) Mocha, however
 with the accent color being ![](swatch.svg) `#89DCEB`. This accent color should be used where white and black is not
-appropriate for the logo (both the wordmark and the icon) or as a primary.
+appropriate for the logo (both the wordmark and the icon) or as a primary. Besides that, we follow Catppuccin's
+[style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md).
