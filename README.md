@@ -5,12 +5,12 @@
 
 ---
 
-This repository contains all of Vivy's branding assets.
+This repository contains all of VIVY's branding assets.
 
 ## Logos
 
-These logos are the primary branding for Vivy. They change color based on text color via currentColor but can also be in
-an accented style. No other form of this icon and wordmark is valid.
+These logos are the primary branding for VIVY. They use Catppuccin's Sky color (see [colors](#colors)). No other form of
+this icon and wordmark is valid.
 
 ### Icon
 
@@ -31,26 +31,14 @@ an accented style. No other form of this icon and wordmark is valid.
 
 > A combination of the icon and wordmark, with 20 pixels of padding.
 
-### Accented Logos
-
-These logos are accented (see [colors](#colors)). This should be used for social media avatars or where it's not
-appropriate to have a pure white or black logo.
-
-#### Icon w/ Accent
-
-![](icon_accented.svg)
-
-#### Wordmark w/ Accent
-
-![](wordmark_accented.svg)
-
-#### Full w/ Accent
-
-![](full_accented.svg)
-
 ## Colors
 
-Vivy has a very minimalistic color palette, based on [Catppuccin](https://github.com/catppuccin/catppuccin) Mocha, however
-with the accent color being ![](swatch.svg) `#89DCEB`. This accent color should be used where white and black is not
-appropriate for the logo (both the wordmark and the icon) or as a primary. Besides that, we follow Catppuccin's
-[style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md).
+VIVY uses the [Catppuccin](https://github.com/catppuccin/catppuccin) color palette. We also follow Catppuccin's
+[style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md). In light theme, the site and
+branding uses the Latte palette, whilst in dark theme it uses the Mocha palette. All coloring is done with the Mocha
+palette _first_, then restyled with the Latte palette. Since the palettes are designed to be easily swapped between,
+this shouldn't cause too many issues, however colors may be changed for Latte. Despite this, color changing should be
+avoided where possible and only done if there's an accessibility concern.
+
+VIVY's accent color is ![this swatch](swatch.svg) Sky, which changes depending on your theme. If theme autodetection is
+not possible (e.g., open graph), then ![mocha swatch](swatch_mocha.svg) Mocha Sky is used.
